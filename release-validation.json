@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-10-25T15:10:53.584964+00:00",
+  "python_version": "3.13.9",
+  "platform": "Darwin",
+  "checks": [
+    {
+      "name": "import",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "demo-default",
+      "exit_code": 0,
+      "passed": true,
+      "roundtrip_all": true,
+      "token_counts": {
+        "greedy": 3,
+        "dp": 2
+      },
+      "matches_documented_example": true
+    },
+    {
+      "name": "demo-unicode",
+      "exit_code": 0,
+      "passed": true,
+      "roundtrip_all": true,
+      "token_counts": {
+        "dp": 22
+      }
+    },
+    {
+      "name": "standalone-tests",
+      "exit_code": 0,
+      "passed": true,
+      "test_methods_run": 26,
+      "duration_seconds_reported": 0.095
+    }
+  ],
+  "static_python_files_checked": 19,
+  "sensitive_pattern_scan_errors": [],
+  "historical_suite_run": false,
+  "training_run": false,
+  "benchmark_run": false,
+  "historical_report_reproduced": false,
+  "status": "passed"
+}
